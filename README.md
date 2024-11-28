@@ -11,21 +11,31 @@ Server version: Apache/2.4.62 (Debian)
 Server built:   2024-10-04T15:21:08
 
 ## Targeting operating systems : 
-PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
-NAME="Debian GNU/Linux"
-VERSION_ID="12"
-VERSION="12 (bookworm)"
-VERSION_CODENAME=bookworm
-ID=debian
-HOME_URL="https://www.debian.org/"
-SUPPORT_URL="https://www.debian.org/support"
-BUG_REPORT_URL="https://bugs.debian.org/"
+PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"<br>
+NAME="Debian GNU/Linux"<br>
+VERSION_ID="12"<br>
+VERSION="12 (bookworm)"<br>
+VERSION_CODENAME=bookworm<br>
+ID=debian<br>
+HOME_URL="https://www.debian.org/"<br>
+SUPPORT_URL="https://www.debian.org/support"<br>
+BUG_REPORT_URL="https://bugs.debian.org/"<br>
 
 ### Goal: 
 
 To automatically install  apache 2 , modify scripts  without user having to edit each script or having to make back ups of each  before auto editing
 
+#### All scripts are directly driven  via ApacheMenu.sh 
+#### I will update this README.md  at some point tomorrow to reflect all changes 
+
+### Important note 
+
+Please ensure you chmod + x  all files  before attempting to use 
+
+
 Creates a public_html folder in users home area  and auto writes and saves an index.html test file to that area 
+Creates an index.html file in /var/www/html and public_html folder 
+Creates a test.php  file in both /var/www/html and public_html folder to test  your php  install 
 
 Sets all permissions  to access that area from local network 
 
